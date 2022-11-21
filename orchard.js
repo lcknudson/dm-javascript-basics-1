@@ -313,12 +313,11 @@ let fujiProfit = (fujiPounds * fujiPrice)
 let galaProfit = (galaPounds * galaPrice)
 let pinkProfit = (pinkPounds * pinkPrice)
 
-let totalProfit = (fujiProfit + galaProfit + pinkProfit)
+
 
 console.log(`Total Fuji profit:`, fujiProfit)
 console.log(`Total Gala profit:`, galaProfit)
 console.log(`Total Pink profit:`, pinkProfit)
-console.log(`Total All apples profit:`, totalProfit)
 
 
 
@@ -335,3 +334,8 @@ console.log(`Total All apples profit:`, totalProfit)
 */
 
 // CODE HERE
+
+// Math function to accomplish this. 
+let totalProfit = (fujiProfit + galaProfit + pinkProfit)
+
+console.log(`Total All apples profit:`, totalProfit)
